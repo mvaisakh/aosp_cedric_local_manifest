@@ -1,21 +1,23 @@
 # Android Open Source Project #
 
-### 用你知道的方式把AOSP源码同步下来 ###
+## Setup your android build system
+
+Use google's official method to setup your build environment.
 
 ```bash
 
-# 清华源节点
+## Syncing
 
-repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-10.0.0_r20 --depth=1
+repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r20 --depth=1
 
-git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 10
+git clone https://github.com/mvaisakh/aosp_cedric_local_manifest -b android-10 .repo/local_manifests
 
-# 同步源码
+## Sync the source
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-### 编译 ###
+### Building
 
 ```bash
 
@@ -23,16 +25,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch aosp_$device-userdebug
+$ lunch aosp_cedric-userdebug
 
 # Build the code
-$ brunch $device
-```
-
-### 已有源码切换分支 ###
-
-```bash
-
-$ repo init -b android-10.0.0_r20
-
+$ mka bacon
 ```
