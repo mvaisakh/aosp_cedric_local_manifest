@@ -14,16 +14,16 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-10/hardware_qcom-caf_audio_msm8998" revision="10" remote="github" />
-  <project path="hardware/qcom-caf/msm8998/display" name="AOSP-10/hardware_qcom-caf_display_msm8998" revision="10" remote="github" />
-  <project path="hardware/qcom-caf/msm8998/media" name="AOSP-10/hardware_qcom-caf_media_msm8998" revision="10" remote="github" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/hardware_qcom-caf_audio_msm8996" revision="lineage-17.0-caf-msm8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/hardware_qcom-caf_display_msm8996" revision="lineage-17.0-caf-msm8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/hardware_qcom-caf_media_msm8996" revision="lineage-17.0-caf-msm8996" remote="github" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0-caf" remote="lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.0" remote="github" />
@@ -106,7 +106,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/core" name="AOSP-10/system_core" revision="10" remote="github" />
+  <project path="system/core" name="PixelExperience/system_core" revision="ten" remote="github" />
   <project path="system/sepolicy" name="AOSP-10/system_sepolicy" revision="10" remote="github" />
   <project path="system/vold" name="AOSP-10/system_vold" revision="10" remote="github" />
 
