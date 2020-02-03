@@ -108,6 +108,6 @@
   <!-- System Repos -->
   <project path="system/core" name="PixelExperience/system_core" revision="ten" remote="github" />
   <project path="system/sepolicy" name="AOSP-10/system_sepolicy" revision="10" remote="github" />
-  <project path="system/vold" name="AOSP-10/system_vold" revision="10" remote="github" />
+  <project path="system/vold" name="mvaisakh/system_vold" revision="ten" remote="github" />
 
 </manifest>
