@@ -50,7 +50,7 @@
   <project path="bionic" name="AOSP-10/bionic" revision="10" remote="github" />
   <project path="bootable/recovery" name="AOSP-10/bootable_recovery" revision="10" remote="github" />
   <project path="build/blueprint" name="AOSP-10/build_blueprint" revision="10" remote="github" />
-  <project path="build/make" name="AOSP-10/build" revision="10" remote="github">
+  <project path="build/make" name="mvaisakh/build" revision="ten" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
