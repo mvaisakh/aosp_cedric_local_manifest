@@ -67,7 +67,7 @@
   <!-- vendor repos -->
   <project path="vendor/aosp" name="mvaisakh/vendor_aosp" revision="ten" remote="github" />
   <project path="vendor/fonts" name="mvaisakh/vendor_fonts" revision="ten" remote="github" />
-  <project path="vendor/overlay" name="DerpLab/vendor_overlay" revision="ten" remote="github" />
+  <project path="vendor/overlay" name="mvaisakh/vendor_overlay" revision="ten" remote="github" />
 
   <!-- External repos -->
   <project path="external/chromium-webview" name="AOSP-10/external_chromium-webview" revision="10" remote="github" />
