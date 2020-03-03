@@ -110,7 +110,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/core" name="PixelExperience/system_core" revision="ten" remote="github" />
+  <project path="system/core" name="mvaisakh/system_core" revision="ten" remote="github" />
   <project path="system/sepolicy" name="AOSP-10/system_sepolicy" revision="10" remote="github" />
   <project path="system/vold" name="mvaisakh/system_vold" revision="ten" remote="github" />
 
