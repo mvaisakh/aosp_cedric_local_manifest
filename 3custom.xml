@@ -114,4 +114,8 @@
   <project path="system/sepolicy" name="AOSP-10/system_sepolicy" revision="10" remote="github" />
   <project path="system/vold" name="mvaisakh/system_vold" revision="ten" remote="github" />
 
+  <!-- Platform repos -->
+  <project path="libcore" name="mvaisakh/libcore" revision="ten" remote="github" />
+  <project path="art" name="mvaisakh/art" revision="ten" remote="github" />
+
 </manifest>

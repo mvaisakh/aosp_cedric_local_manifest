@@ -119,4 +119,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
+  <!-- Platform repos -->
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/art" />
 </manifest>
