@@ -98,6 +98,7 @@
   <project path="packages/apps/Launcher3" name="AOSP-10/packages_apps_Launcher3" revision="10" remote="github" />
   <project path="packages/apps/Messaging" name="AOSP-10/packages_apps_Messaging" revision="10" remote="github" />
   <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
+  <project path="packages/apps/Settings" name="mvaisakh/packages_apps_Settings" revision="ten" remote="github" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-r370808" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-6032204" revision="9.0" remote="github" />
