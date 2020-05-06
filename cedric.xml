@@ -2,6 +2,6 @@
 <manifest>
 <!-- Moto G5 Cedric Projects -->
   <project name="mvaisakh/platform_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="aosp" />
-  <project name="nvaisakh/eva_kernel" path="kernel/motorola/msm8937" remote="github" revision="eva-rel/eas+/3.18" />
+  <project name="mvaisakh/eva_kernel" path="kernel/motorola/msm8937" remote="github" revision="eva-rel/eas+/3.18" />
   <project name="mvaisakh/platform_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="ten" />
 </manifest>
