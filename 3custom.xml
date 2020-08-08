@@ -119,4 +119,7 @@
   <project path="libcore" name="mvaisakh/libcore" revision="ten" remote="github" />
   <project path="art" name="mvaisakh/art" revision="ten" remote="github" />
 
+  <!-- Prebuilt GCC 10 -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arter97/arm64-gcc" revision="master" remote="github" />
+  <project path="prrbuilts/gcc/linux-x86/arm/arm-eabi" name="arter97/arm32-gcc" revision="master" remote="github" />
 </manifest>
